@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  mywebsite:
+    image: anhlongwin1901/webbanhang:latest
+    ports:
+      - "5002:5002"
+    volumes:
+      - ./web-ban-hang:/app
+      - /app/node_modules
